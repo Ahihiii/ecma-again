@@ -7,7 +7,7 @@ module.exports = {
         "airbnb-base",
     ],
     parserOptions: {
-        ecmaVersion: "latest",
+        ecmaVersion: 13,
         sourceType: "module",
     },
     rules: {
@@ -15,5 +15,6 @@ module.exports = {
         quotes: ["error", "double", { allowTemplateLiterals: true }],
         indent: ["error", 4],
         "eol-last": ["error", "never"],
+        "linebreak-style": 0,
     },
 };
